@@ -1,0 +1,22 @@
+:root {
+  --widthbox: 40rem;
+  --hue: 40;
+}
+
+.box {
+  padding: 1rem;
+  /* width: calc(var(--widthbox) - 2rem); */
+  margin: 0 auto;
+}
+
+.one {
+  background-color: hsl(var(--hue), 50%, 80%);
+  padding: calc(5vw + 3rem);
+  /* padding: .25rem */
+}
+
+.two {
+  background-color: hsl(calc(var(--hue) - 180), 50%, 80%);
+  padding: calc(5vw + 0.5rem);
+  /* padding: .5rem; */
+}
